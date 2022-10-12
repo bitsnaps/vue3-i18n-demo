@@ -1,4 +1,4 @@
 {
-    "hello": "hello world",
+    "hello": "Hello {name}",
     "goodbye": "Goodbye"
 }

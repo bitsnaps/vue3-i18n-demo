@@ -1,6 +1,6 @@
 <template>
     <div>
-      <p>{{ $t("hello") }}</p>
+      <p>{{ $t("hello", { name}) }}</p>
       <p>{{ $t("goodbye") }}</p>
       <button @click="setLocale('en')" class="button">English</button>
       <button @click="setLocale('es')" class="button">Spanish</button>
@@ -23,6 +23,11 @@
 
   export default {
     name: "HelloI18n",
+    data() {
+        return {
+            name: 'Ali'
+        }
+    },
     methods: {
       setLocale(locale: string) {
         console.log('changed to: ', locale);
