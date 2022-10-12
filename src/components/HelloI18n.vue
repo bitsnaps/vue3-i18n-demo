@@ -4,6 +4,7 @@
       <p>{{ $t("goodbye") }}</p>
       <button @click="setLocale('en')" class="button">English</button>
       <button @click="setLocale('es')" class="button">Spanish</button>
+      <button @click="setLocale('ar')" class="button">عربي</button>
     </div>
   </template>
   

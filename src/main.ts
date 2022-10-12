@@ -14,6 +14,10 @@ const messages = {
     es: {
         'hello': 'Hola',
         'goodbye': 'Adios'
+    },
+    ar: {
+        'hello': 'مرحبا',
+        'goodbye': 'وداعا'
     }
   }
 
