@@ -2,6 +2,24 @@
     <div>
       <p>{{ $t("hello", { name}) }}</p>
       <p>{{ $t("goodbye") }}</p>
+
+      <!-- $tc is merged into $t now (v9)-->
+      <!-- <p>{{ $tc('car', 2)}}</p> --> 
+      <p>{{ $t('car', 0)}}</p>
+      <p>{{ $t('car', 1)}}</p>
+      <p>{{ $t('car', 2)}}</p>
+
+      <!-- use "count" or "n" to show the number of item -->
+      <p>{{ $t('person', 0)}}</p>
+      <p>{{ $t('person', 1)}}</p>
+      <p>{{ $t('person', 2)}}</p>
+      <!-- or by passing an argument -->
+      <p>{{ $t('person', { n: 4})}}</p>
+
+      <p>{{ $t('apple')}}</p>
+      <p>{{ $t('apple', 2)}}</p>
+      <p>{{ $t('apple', 3)}}</p>
+
       <button @click="setLocale('en')" class="button">English</button>
       <button @click="setLocale('es')" class="button">Spanish</button>
       <button @click="setLocale('ar')" class="button">عربي</button>
