@@ -18,7 +18,11 @@ const messages = {
     ar: {
         'hello': 'مرحبا',
         'goodbye': 'وداعا'
-    }
+    },
+    fr: {
+        'hello': 'Bonjour',
+        'goodbye': 'Au revoir'
+    },
   }
 
 // 2. Create i18n instance with options
