@@ -3,5 +3,6 @@
     "goodbye": "Goodbye",
     "car": "car | cars",
     "person": "no person | one person | {n} people",
-    "apple": "no apples | 1 apple | {n} apples"
+    "apple": "no apples | 1 apple | {n} apples",
+    "currency": "USD"
 }
