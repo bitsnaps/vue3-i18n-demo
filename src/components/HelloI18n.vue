@@ -5,15 +5,17 @@
       <button @click="setLocale('en')" class="button">English</button>
       <button @click="setLocale('es')" class="button">Spanish</button>
       <button @click="setLocale('ar')" class="button">عربي</button>
-      <button @click="setLocale('fr')" class="button">French</button>
-      <p>Your browser uses <code>{{ language }}</code> you can switch to your prefered language:
-      <select name="languages">
-        <option v-for="lang in languages" 
-            :key="lang" 
-            >{{ lang }}
-        </option>
-      </select>
-      </p>
+      <button @click="setLocale('fr')" class="button">French</button>      
+
+    <div class="locale-changer">
+        <p>Your browser uses <code>{{ language }}</code> you can switch to your prefered language:</p>
+        <select v-model="$i18n.locale">
+            <option 
+                v-for="locale in $i18n.availableLocales" 
+                :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
+        </select>
+    </div>
+
     </div>
   </template>
   
