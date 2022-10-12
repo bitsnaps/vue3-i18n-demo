@@ -4,5 +4,7 @@
     "car": "car | cars",
     "person": "no person | one person | {n} people",
     "apple": "no apples | 1 apple | {n} apples",
-    "currency": "USD"
+    "currency": "USD",
+    "terms": "I accept the {slotURL} and conditions",
+    "termsLink": "terms and conditions"
 }

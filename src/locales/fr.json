@@ -4,5 +4,7 @@
     "car": "voiture | voitures",
     "person": "aucune personne | une personne | {n} personnes",
     "apple": "aucune pomme | 1 pomme | {n} pommes",
-    "currency": "EUR"
+    "currency": "EUR",
+    "terms": "J'accept {slotURL} et les conditions",
+    "termsLink": "services et conditions"
 }
