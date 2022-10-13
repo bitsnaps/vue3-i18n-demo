@@ -1,4 +1,6 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 + i18n + TypeScript + Vite
+
+This app is a demo for using Vue3 and i18n with TypeScript and Vite.
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
